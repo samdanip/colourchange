@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  border: 1px solid white;
+  border-radius: 20px;
+  min-width: 300px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(50, 97, 56);
+  transition: background 1s;
+}
+
+.idle {
+  background-color: rgb(50, 97, 56);
+}
+
+.hot {
+  background-color: rgb(167, 74, 20);
+}
+
+.cold {
+  background-color: rgb(19, 105, 141);
+}
+
+.temperature {
+  font-size: 52px;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-around;
+}
